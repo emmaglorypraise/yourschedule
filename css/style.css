@@ -1,0 +1,138 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: "Proxima","sans-serif";
+    font-size: 18px;
+    font-weight: 400px;
+    position: relative;
+}
+html, body{
+    text-align: center;
+    vertical-align: middle;
+    overflow-x: hidden;
+}
+
+@font-face {
+	font-family: 'Proxima';
+	src: url(../fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+	font-family: 'Proxima Bold';
+    src: url(../fonts/ProximaNova-Bold.otf);
+}
+h1, h2, h4,h3,h5,h6 {
+font-family: "Proxima bold";
+font-weight: bold;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:40px;
+}
+h3{
+    font-size: 30px;
+    color: rgb(117, 110, 110);
+}
+h4{
+    font-size: 20px;
+}
+
+#home2{
+    background: url('../images/blank.jpg')  0 no-repeat  fixed;
+    color: rgb(117, 110, 110);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    /* text-shadow:white 0.3em 0.3em 0.3em; */
+}
+
+#home2 .btn{
+    background-color: white;
+    color: rgb(117, 110, 110);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px 30px;
+    margin-top: 50px;
+}
+#home2 .btn:hover{
+    background-color:  rgb(117, 110, 110);;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+#home {
+    background: url('../images/brick.jpg')  0% no-repeat fixed;
+    color: rgb(117, 110, 110);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    /* text-shadow:white 0.3em 0.3em 0.3em; */
+}
+#home .btn{
+    background-color: white;
+    color: rgb(117, 110, 110);
+    
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px 20px;
+    margin-top: 50px;
+}
+#home .btn:hover{
+    background-color:  rgb(117, 110, 110);;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.navbar-default {
+    background-color: white;
+    border: none;
+    margin: 0 !important;
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 40px;
+    /* text-align:left; */
+}
+
+.navbar-default .navbar-nav li a {
+	color: #606060;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: black;;
+}
+
+.modal-header {
+    background-color:  #504949;
+    color: white;
+    text-align: left;
+}
+.modal-body{
+    height: 70%;
+}
+.modal-footer{
+    height: 50px;
+}
+
+.jumbotron {
+    background: url('../images/brick.jpg') ;
+    color: rgb(117, 110, 110);
+    
+}
+.jumbotron2{
+    background: url('../images/brick.jpg')  0 no-repeat  fixed;
+    color: rgb(117, 110, 110);
+   
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
